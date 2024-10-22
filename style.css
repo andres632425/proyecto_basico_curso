@@ -9,6 +9,8 @@
                  margin-right: 0;}
          /*  Codigo pagina en desktop  */
  
+        body   {padding-top: 7rem;}
+
          header,nav,main,footer {width: 80%;
                                  margin: 0 auto;}
  
@@ -18,10 +20,17 @@
  
          nav{   
                  min-height: 7rem;
-                 background-color: orange;}
+                 background-color: orange;
+                 position: fixed;
+                 top: 0;
+                 left: 10%;
+                
+                
+                
+                }
  
          main {  
-                 min-height: 20rem;
+                 min-height: 60rem;
                  background-color: lightblue;
                  display: flex;
                  justify-content:space-around;
@@ -103,6 +112,22 @@
                     margin: 0.2rem;
                     border: 0.3 solid green;
                 text-align: center;}
+
+
+        section {width: 100%;
+                background-color: chartreuse;
+                 min-height: 20rem;
+                border: 0.1rem solid red;
+                display: flex;}
+        article.mapa {width: 40%;
+                border: 0.1rem solid red;}
+        article.form {width: 60%;
+                      background-color: darkgray;
+                      min-height: 20rem;
+                      border: 0.1rem solid red;
+        }
+
+
 
           /*  Codigo pagina en tablet */
 
