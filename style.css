@@ -13,7 +13,7 @@
                                  margin: 0 auto;}
  
          header { 
-                 min-height: 8rem;
+                 min-height: 15rem;
                  background-color: pink;}
  
          nav{   
@@ -84,7 +84,19 @@
  
          }
 
+         header {display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content:flex-start;}
 
+
+
+
+         h1, h2, p {width: 50%;
+                    background-color: cadetblue;
+                    margin: 0.2rem;
+                    border: 0.3 solid green;
+                text-align: center;}
 
           /*  Codigo pagina en tablet */
 
