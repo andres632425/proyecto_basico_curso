@@ -33,8 +33,9 @@
                  min-height: 60rem;
                  background-color: lightblue;
                  display: flex;
-                 justify-content:space-around;
+                 justify-content:flex-start;
                  flex-wrap: wrap;
+                 gap: 0.8rem;
              
              
              }
@@ -45,10 +46,12 @@
  
          .ponerBorde {border: 0.3rem solid black;}
  
+        main img {width: 32%;}
+         /*  Divs configuracion inicial
          main div {width: 30%;
                  min-height: 5rem;
                  background-color: lightgray;
-                 border: 0.2rem solid red;}
+                 border: 0.2rem solid red;}   */
  
          .izda {background-color: rgba(215, 221, 48, 0.533);}
           .dcha {background-color: rgb(140, 215, 65);}
@@ -143,16 +146,24 @@
 
             }
             
-            main div {width: 45%; }
+            header {display: none;}
+
+            main {justify-content: space-between;}
+
+            main img {width: 45%; }
             
             body {background-color: aqua;}
+
+            nav {position: static;}
+
+            body {padding-top: 0;}
 
 
         }
         @media only screen and (max-width: 602px) {
 
-
-            main div {width: 90%; }
+             main {justify-content: center;}
+            main img {width: 90%; }
 
             body {
               background-color: blue;
