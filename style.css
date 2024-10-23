@@ -127,7 +127,9 @@
                       border: 0.1rem solid red;
         }
 
-
+        footer {background-image: url("img_corporativo/pattern.png");
+                background-size: 11%;
+                background-repeat:repeat-x;}
 
           /*  Codigo pagina en tablet */
 
